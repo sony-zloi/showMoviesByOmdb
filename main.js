@@ -38,7 +38,7 @@ function getMovies(_page){
 		 movieRequest = new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	
-	movieRequest.open('GET', url,'async', 'luqz0r@ya.ru','5864a9f1');
+	movieRequest.open('GET', url,'async','5864a9f1');
 	movieRequest.responseType = "json";
 
 	movieRequest.send();
@@ -153,7 +153,7 @@ function getDetails(_tt){
 		 movieRequestDetails = new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	
-	movieRequestDetails.open('GET', url,'async', 'luqz0r@ya.ru','5864a9f1');
+	movieRequestDetails.open('GET', url,'async','5864a9f1');
 	movieRequestDetails.responseType = "json";
 
 	movieRequestDetails.send();
