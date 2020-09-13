@@ -1,0 +1,170 @@
+body {
+	font-family: monospace;
+	font-size: 25px;
+	background-color: #fff7d0;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+div {
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+input[type=text]{
+	font-size: 15px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: 28px;
+	cursor: pointer;
+	float: right;
+	width: 60%;
+	font-weight: ;
+}
+
+input[type=text]:hover{
+	border: 1px solid red;
+}
+
+input[type=button] {
+	width: 100%;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+	font-size: 20px;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+input[type=button]:hover{
+	border: 1px solid red;
+}
+
+select {
+	font-size: 15px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: 32px;
+	cursor: pointer;
+	float: right;
+	width: 62%;
+}
+
+select:hover {
+	border: 1px solid red;
+}
+
+table {
+	border: 2px solid gray;
+	border-radius: 10px;
+	height: 376px;
+	width: 500px;
+	display: inline-table;
+	margin: 20px;
+	vertical-align: middle;
+}
+
+td {
+	text-align: left;
+}
+
+img {
+	height: 320px;
+    margin: 20px;
+	max-width: 219px;
+    max-height: 320px;
+}
+
+.img-detail {
+	height: 550px;
+    margin: 20px;
+	max-height: 550px;
+	max-width: 384px;
+}
+}
+
+ul {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	padding-left: 0;
+}
+
+li {
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin: 5px;
+	width: 50px;
+	font-size: 20px;
+	margin: 2px;
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	padding-top: 15px;
+	background-color: gray;
+	cursor: pointer;
+}
+
+li:hover {
+	border: 1px solid black;
+}
+
+.td-image {
+	width: 219px;
+    height: 320px;
+}
+
+.container {
+	width: 20%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	padding:20px;
+	text-align: left;
+	padding-bottom: 0;
+}
+
+.active-button {
+	background-color: green;
+}
+
+.table-det {
+	border: 2px solid gray;
+	border-radius: 10px;
+	height: 576px;
+	width: 70%;
+	display: inline-table;
+	margin: 20px;
+	vertical-align: middle;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+
+/* .movie-container {
+	border: 2px solid gray;
+	border-radius: 10px;
+	height: 300px;
+	width: 450px;
+	padding: 20px;
+	background-size: 200px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.movie-container2 {
+	margin-left: 250px;
+	text-align: left;
+} */
